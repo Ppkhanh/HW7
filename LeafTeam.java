@@ -2,13 +2,13 @@ public class LeafTeam implements Team {
     private String name;
     private int noOfAthletes;
     private int noOfGoldmedals;
-    public int numberOf;
+    public int printInfo;
 
-    public LeafTeam(String name, int noOfAthletes, int noOfGoldmedals, int numberOf){
+    public LeafTeam(String name, int noOfAthletes, int noOfGoldmedals, int printInfo){
         this.name = name;
         this.noOfAthletes = noOfAthletes;
         this.noOfGoldmedals = noOfGoldmedals;
-        this.numberOf = numberOf;
+        this.printInfo = printInfo;
     }
     public String getName(){
         return this.name;
@@ -21,6 +21,6 @@ public class LeafTeam implements Team {
     }
     @Override
     public void accept(Visitor v) {
-      v.visitLeafTeam(this, numberOf);
+      v.visitLeafTeam(this, printInfo);
     }
 }
