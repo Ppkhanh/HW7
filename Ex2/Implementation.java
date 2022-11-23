@@ -1,7 +1,7 @@
 
 public class Implementation {
     public static void main(String[] args) {
-        Visitor v = new Print();
+        Visitor2 v = new Print();
 
         // a: Germany Team
         System.out.println("Exercise a)");

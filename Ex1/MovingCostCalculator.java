@@ -1,5 +1,5 @@
 
-public class MovingCostCalculator implements Visitor{
+public class MovingCostCalculator implements Visitor1{
 private double Cost= 0;
 
 @Override
@@ -35,15 +35,5 @@ Cost = unitCost*e.getWeight();
 
 public double get_movingCost(HouseholdItem i){
     return Cost;
-}
-@Override
-public void visitCompositeTeam(CompositeTeam CT) {
-    // TODO Auto-generated method stub
-    
-}
-@Override
-public void visitLeafTeam(LeafTeam LT, int printInfo) {
-    // TODO Auto-generated method stub
-    
 }
 }

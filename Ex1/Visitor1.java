@@ -1,5 +1,5 @@
 
-public interface Visitor{
+public interface Visitor1{
 
 public void VisitGlass(Glass g);
 public void VisitFurniture(Furniture f);

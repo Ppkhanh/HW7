@@ -25,7 +25,7 @@ public class CompositeTeam implements Team {
     }
 
     @Override
-    public void accept(Visitor v) {
+    public void accept(Visitor2 v) {
         v.visitCompositeTeam(this);
         for (Team t : subTeamList) {
             t.accept(v);

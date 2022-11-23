@@ -1,5 +1,5 @@
 
-public class PackingInstruction implements Visitor{
+public class PackingInstruction implements Visitor1{
     private String instruction ;
     private String wrap;
     private String dimension;
@@ -30,14 +30,5 @@ dimension="and packed in a box with dimension: " +Integer.toString(e.getWidth()+
 public String getInstruction(HouseholdItem i){
     return instruction;
 }
-@Override
-public void visitCompositeTeam(CompositeTeam CT) {
-   // TODO Auto-generated method stub
-   
-}
-@Override
-public void visitLeafTeam(LeafTeam LT, int printInfo) {
-   // TODO Auto-generated method stub
-   
-}
+
 }

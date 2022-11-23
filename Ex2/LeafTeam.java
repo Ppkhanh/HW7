@@ -21,7 +21,7 @@ public class LeafTeam implements Team {
         return this.noOfGoldmedals;
     }
     @Override
-    public void accept(Visitor v) {
+    public void accept(Visitor2 v) {
       v.visitLeafTeam(this, printInfo);
     }
 }

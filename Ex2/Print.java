@@ -1,5 +1,5 @@
 
-public class Print implements Visitor {
+public class Print implements Visitor2 {
 
     @Override
     public void visitCompositeTeam(CompositeTeam CT) {
