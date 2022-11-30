@@ -33,7 +33,7 @@ Cost = unitCost*e.getWeight();
  System.out.println("Total cost for "+e.getName()+" is: "+ Double.toString(Cost)+" Euros");
 }
 
-public double get_movingCost(HouseholdItem i){
+public double get_movingCost(){
     return Cost;
 }
 }
